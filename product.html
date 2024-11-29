@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Detalle del Producto - Lussion</title>
+    <link rel="stylesheet" href="product.css" />
+    <link rel="stylesheet" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="nav-container">
+        <div class="logo">
+          <img src="fotos/logo.png" alt="LUSSION" class="logo-image" />
+        </div>
+        <div class="nav-links">
+          <a href="/" class="nav-link">Inicio</a>
+          <a href="/prendas" class="nav-link">Prendas</a>
+          <a href="#contacto" class="nav-link">Contáctanos</a>
+        </div>
+        <div class="search-bar">
+          <input type="text" placeholder="Buscar productos..." />
+          <i class="bx bx-search"></i>
+        </div>
+        <div class="nav-icons">
+          <i class="bx bx-heart"></i>
+          <i class="bx bx-cart"></i>
+        </div>
+        <div class="menu-toggle">
+          <i class="bx bx-menu"></i>
+        </div>
+      </div>
+    </nav>
+
+    <main>
+      <div class="product-detail">
+        <div class="product-images">
+          <img src="" alt="" class="main-image" id="mainImage" />
+          <div class="thumbnail-grid" id="thumbnailGrid"></div>
+        </div>
+        <div class="product-info">
+          <h1 id="productName"></h1>
+          <p class="price" id="productPrice"></p>
+          <p class="description" id="productDescription"></p>
+
+          <div>
+            <h3>Talla</h3>
+            <div class="size-options" id="sizeOptions"></div>
+          </div>
+
+          <div>
+            <h3>Color</h3>
+            <div class="color-options" id="colorOptions"></div>
+          </div>
+
+          <div>
+            <h3>Cantidad</h3>
+            <div class="quantity-selector">
+              <button class="quantity-btn" onclick="updateQuantity(-1)">
+                -
+              </button>
+              <span id="quantity">1</span>
+              <button class="quantity-btn" onclick="updateQuantity(1)">
+                +
+              </button>
+            </div>
+          </div>
+
+          <button class="add-to-cart">Agregar al Carrito</button>
+          <a id="whatsappBtn" class="add-to-cart" href="#" target="_blank">
+            Adquirir Producto
+          </a>
+        </div>
+      </div>
+    </main>
+
+    <footer id="contacto" class="footer">
+      <div class="footer-content">
+        <div class="footer-section">
+          <h3>Contáctanos</h3>
+          <p>¿Tienes alguna pregunta? Estamos aquí para ayudarte</p>
+          <form class="contact-form">
+            <input type="text" placeholder="Nombre" required />
+            <input type="email" placeholder="Correo electrónico" required />
+            <textarea placeholder="Mensaje" required></textarea>
+            <button type="submit" class="submit-btn">Enviar mensaje</button>
+          </form>
+        </div>
+        <div class="footer-section">
+          <h3>Información</h3>
+          <ul>
+            <li><i class="bx bx-map"></i> Dirección: Av. Principal 123</li>
+            <li><i class="bx bx-phone"></i> Teléfono: (01) 123-4567</li>
+            <li><i class="bx bx-envelope"></i> Email: info@lussion.com</li>
+          </ul>
+          <div class="social-links">
+            <a href="#"><i class="bx bxl-facebook"></i></a>
+            <a href="#"><i class="bx bxl-instagram"></i></a>
+            <a href="#"><i class="bx bxl-whatsapp"></i></a>
+          </div>
+          <div class="logo2">
+            <img src="fotos/logo.png" alt="LUSSION" class="logo2-image" />
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="product.js"></script>
+  </body>
+</html>
