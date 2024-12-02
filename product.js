@@ -54,6 +54,42 @@ const productData = {
     sizes: ["XS", "S", "M", "L", "XL"],
     colors: ["Mint", "Rosa", "Negro"],
   },
+  7: {
+    name: "Bikini Negro Tela",
+    price: 49.99,
+    description:
+      "Encaje seda azul, elaborado con la mejor seda del Perú con un diseño bonito.",
+    images: ["fotos/lenceria negro completo.jpg"],
+    sizes: ["XS", "S", "M", "L", "XL"],
+    colors: ["Mint", "Rosa", "Negro"],
+  },
+  8: {
+    name: "Bikini Azul Encajado",
+    price: 54.99,
+    description:
+      "Encaje seda azul, elaborado con la mejor seda del Perú con un diseño bonito.",
+    images: ["fotos/bikini azul.jpg"],
+    sizes: ["XS", "S", "M", "L", "XL"],
+    colors: ["Mint", "Rosa", "Negro"],
+  },
+  9: {
+    name: "Bikini Celeste Tull",
+    price: 79.99,
+    description:
+      "Encaje seda azul, elaborado con la mejor seda del Perú con un diseño bonito.",
+    images: ["fotos/kini celeste.jpg"],
+    sizes: ["XS", "S", "M", "L", "XL"],
+    colors: ["Mint", "Rosa", "Negro"],
+  },
+  10: {
+    name: "Bikini Rojo Seda",
+    price: 59.99,
+    description:
+      "Encaje seda azul, elaborado con la mejor seda del Perú con un diseño bonito.",
+    images: ["fotos/bikini rojo.jpg"],
+    sizes: ["XS", "S", "M", "L", "XL"],
+    colors: ["Mint", "Rosa", "Negro"],
+  },
 
   // Agregar más productos si la empresa lo necesita
   // Tambien se puede eliminar productos que ya no se volverán a producir
