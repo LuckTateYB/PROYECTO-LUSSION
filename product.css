@@ -98,7 +98,8 @@ body {
 }
 
 .main-image {
-  width: 60%;
+  height: auto;
+  width: 50%;
   aspect-ratio: auto;
   object-fit: contain;
   border-radius: 50px;
@@ -300,5 +301,20 @@ body {
 @media (max-width: 768px) {
   .product-detail {
     grid-template-columns: 1fr;
+    gap: 1rem;
+    padding: 1rem;
+  }
+
+  .add-to-cart {
+    width: 100%;
+    height: auto;
+    padding: 0.8rem;
+    font-size: 0.9rem;
+  }
+
+  .size-btn,
+  .color-btn {
+    flex: 1 1 20%; /* Distribuimos los botones de forma uniforme */
+    text-align: center;
   }
 }
