@@ -137,8 +137,6 @@ h2 {
   overflow: hidden;
   border-radius: 8px;
   max-width: 400px;
-  margin: 0;
-  padding: 0;
   aspect-ratio: 4 / 3;
 }
 
@@ -162,8 +160,6 @@ h2 {
   align-items: center;
   justify-content: center;
   color: white;
-  margin: 0;
-  padding: 0;
 }
 
 .category-overlay h3 {
