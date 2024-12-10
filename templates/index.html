@@ -3,18 +3,19 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Detalle del Producto - Lussion</title>
-    <link rel="stylesheet" href="product.css" />
+    <title>Lussion - Lencería</title>
+    <base href="/PROYECTO-LUSSION/" />
+    <link rel="stylesheet" href="../css/style.css" />
   </head>
   <body>
     <nav class="navbar">
       <div class="nav-container">
         <div class="logo">
-          <img src="fotos/logo.png" alt="LUSSION" class="logo-image" />
+          <img src="../fotos/logo.png" alt="LUSSION" class="logo-image" />
         </div>
         <div class="nav-links">
           <a href="index.html" class="nav-link">Inicio</a>
-          <a href="/prendas" class="nav-link">Prendas</a>
+          <a href="#productGrid" class="nav-link">Prendas</a>
           <a href="#contacto" class="nav-link">Contáctanos</a>
         </div>
         <div class="search-bar">
@@ -31,46 +32,52 @@
       </div>
     </nav>
 
-    <main>
-      <div class="product-detail">
-        <div class="product-images">
-          <img src="" alt="" class="main-image" id="mainImage" />
-          <div class="thumbnail-grid" id="thumbnailGrid"></div>
+    <div class="carousel">
+      <button class="carousel-button prev" id="prevBtn">&lt;</button>
+      <button class="carousel-button next" id="nextBtn">&gt;</button>
+
+      <div class="carousel-container">
+        <div class="carousel-slide">
+          <img src="../fotos/carrusel1.jpg" alt="Imagen 1" />
         </div>
-        <div class="product-info">
-          <h1 id="productName"></h1>
-          <p class="price" id="productPrice"></p>
-          <p class="description" id="productDescription"></p>
-
-          <div>
-            <h3>Talla</h3>
-            <div class="size-options" id="sizeOptions"></div>
-          </div>
-
-          <div>
-            <h3>Color</h3>
-            <div class="color-options" id="colorOptions"></div>
-          </div>
-
-          <div>
-            <h3>Cantidad</h3>
-            <div class="quantity-selector">
-              <button class="quantity-btn" onclick="updateQuantity(-1)">
-                -
-              </button>
-              <span id="quantity">1</span>
-              <button class="quantity-btn" onclick="updateQuantity(1)">
-                +
-              </button>
-            </div>
-          </div>
-
-          <button class="add-to-cart">Agregar al Carrito</button>
-          <a id="whatsappBtn" class="add-to-cart" href="#" target="_blank">
-            Adquirir Producto
-          </a>
+        <div class="carousel-slide">
+          <img src="../fotos/carrusel2.webp" alt="Imagen 2" />
+        </div>
+        <div class="carousel-slide">
+          <img src="../fotos/carrusel3.jpg" alt="Imagen 3" />
         </div>
       </div>
+
+      <div class="carousel-dots">
+        <span class="dot active"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+      </div>
+    </div>
+
+    <main>
+      <section class="categories">
+        <h2>CATEGORIAS</h2>
+        <div class="category-grid">
+          <a href="category.html?id=1" class="category-card">
+            <img src="../fotos/bikini celeste.jpg" alt="Conjuntos" />
+            <div class="category-overlay">
+              <h3>BIKINIS</h3>
+            </div>
+          </a>
+          <a href="lenceria.html" class="category-card">
+            <img src="../fotos/foto1.jpg" alt="Lencería" />
+            <div class="category-overlay">
+              <h3>LENCERIA</h3>
+            </div>
+          </a>
+        </div>
+      </section>
+
+      <section class="products">
+        <h2>NOVEDADES EN LUSSION🖤</h2>
+        <div class="product-grid" id="productGrid"></div>
+      </section>
     </main>
 
     <footer id="contacto" class="footer">
@@ -89,7 +96,7 @@
           <h3>Información</h3>
           <ul>
             <li><i class="bx bx-map"></i> Dirección: Av. Principal 123</li>
-            <li><i class="bx bx-phone"></i> Teléfono: (01) 123-4567</li>
+            <li><i class="bx bx-phone"></i> Teléfono: +51 912 075 022</li>
             <li><i class="bx bx-envelope"></i> Email: info@lussion.com</li>
           </ul>
           <div class="social-links">
@@ -98,12 +105,12 @@
             <a href="#"><i class="bx bxl-whatsapp"></i></a>
           </div>
           <div class="logo2">
-            <img src="fotos/logo.png" alt="LUSSION" class="logo2-image" />
+            <img src="../fotos/logo.png" alt="LUSSION" class="logo2-image" />
           </div>
         </div>
       </div>
     </footer>
 
-    <script src="product.js"></script>
+    <script src="../js/script.js"></script>
   </body>
 </html>
