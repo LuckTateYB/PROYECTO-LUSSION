@@ -81,42 +81,71 @@ body {
   color: #666;
 }
 
+/* Product Detail Styles - Updated */
 .product-detail {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 2rem;
-  padding: 2rem;
-  background: white;
-  border-radius: 8px;
-  margin-top: 2rem;
+  gap: 3rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 40px;
 }
 
 .product-images {
+  flex: 1; /*dudando*/
   display: flex;
   flex-direction: column;
-  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  max-width: 400px;
 }
 
 .main-image {
+  max-width: 80%;
   height: auto;
-  width: 50%;
-  aspect-ratio: auto;
-  object-fit: contain;
   border-radius: 50px;
 }
 
+.carousel-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.carousel-btn.left {
+  left: -10px;
+}
+
+.carousel-btn.right {
+  right: -10px;
+}
+
 .thumbnail-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 0.5rem;
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+  justify-content: center;
 }
 
 .thumbnail {
-  width: 100%;
-  aspect-ratio: 1;
+  width: 50px;
+  height: 50px;
   object-fit: cover;
-  border-radius: 4px;
   cursor: pointer;
+  border: 2px solid transparent;
+  border-radius: 5px;
+}
+
+.thumbnail:hover,
+.thumbnail.active {
+  border-color: #000;
 }
 
 .product-info {
@@ -301,7 +330,7 @@ body {
 @media (max-width: 768px) {
   .product-detail {
     grid-template-columns: 1fr;
-    gap: 1rem;
+    gap: 1.5rem;
     padding: 1rem;
   }
 

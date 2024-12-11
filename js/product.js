@@ -90,7 +90,18 @@ const productData = {
     sizes: ["XS", "S", "M", "L", "XL"],
     colors: ["Mint", "Rosa", "Negro"],
   },
-
+  11: {
+    name: "Lenceria Negro Texturizado",
+    price: 59.99,
+    description:
+      "Lenceria de encaje color negro, elaborado con la mejor seda del Perú con un diseño bonito.",
+    images: [
+      "../fotos/lence_text_negro2.jpg",
+      "../fotos/lence_text_negro3.jpg",
+    ],
+    sizes: ["XS", "S", "M", "L", "XL"],
+    colors: ["Mint", "Rosa", "Negro"],
+  },
   // Agregar más productos si la empresa lo necesita
   // Tambien se puede eliminar productos que ya no se volverán a producir
 };
@@ -113,16 +124,20 @@ function loadProductDetails() {
   document.getElementById("productPrice").textContent = `$${product.price}`;
   document.getElementById("productDescription").textContent =
     product.description;
-  document.getElementById("mainImage").src = product.images[0];
+  updateMainImage(product.images[0]);
 
   // Cargar miniaturas
   const thumbnailGrid = document.getElementById("thumbnailGrid");
-  product.images.slice(1).forEach((image, index) => {
+  thumbnailGrid.innerHTML = "";
+  product.images.forEach((image, index) => {
     const img = document.createElement("img");
     img.src = image;
     img.alt = `${product.name} Thumbnail ${index + 1}`;
     img.className = "thumbnail";
-    img.onclick = () => updateMainImage(image);
+    img.onclick = () => {
+      currentIndex = index;
+      updateMainImage(image);
+    };
     thumbnailGrid.appendChild(img);
   });
 
@@ -164,6 +179,23 @@ function loadProductDetails() {
 function updateMainImage(src) {
   document.getElementById("mainImage").src = src;
 }
+
+document.getElementById("prevBtn").addEventListener("click", () => {
+  const product = productData[productId];
+  if (!product) return;
+  currentIndex =
+    (currentIndex - 1 + product.images.length) % product.images.length;
+  updateMainImage(product.images[currentIndex]);
+});
+
+//Uncaught ReferenceError: currentIndex is not defined
+//at HTMLButtonElement.<anonymous> (product.js:194:3)
+document.getElementById("nextBtn").addEventListener("click", () => {
+  const product = productData[productId];
+  if (!product) return;
+  currentIndex = (currentIndex + 1) % product.images.length;
+  updateMainImage(product.images[currentIndex]);
+});
 
 function selectSize(button) {
   document

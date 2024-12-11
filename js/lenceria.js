@@ -18,6 +18,12 @@ const lences = [
     price: 69.99,
     image: "../fotos/conjunto celeste.jpg",
   },
+  {
+    id: 11,
+    name: "Lenceria Negro Texturizado",
+    price: 69.99,
+    image: "../fotos/lence_text_negro.jpg",
+  },
 ];
 
 // Cargar productos en la página
