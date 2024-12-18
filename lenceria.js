@@ -20,9 +20,51 @@ const lences = [
   },
   {
     id: 11,
+    name: "Lenceria Negra",
+    price: 69.99,
+    image: "fotos/lenceria-negra.webp",
+  },
+  {
+    id: 12,
     name: "Lenceria Negro Texturizado",
     price: 69.99,
     image: "fotos/lence_text_negro.jpg",
+  },
+  {
+    id: 13,
+    name: "Lenceria Negra Lisa",
+    price: 69.99,
+    image: "fotos/lenceria-lisa-negra.webp",
+  },
+  {
+    id: 14,
+    name: "Lenceria Roja Texturizada",
+    price: 69.99,
+    image: "fotos/lenceria-roja.webp",
+  },
+  {
+    id: 15,
+    name: "Lenceria Rosa Pastel",
+    price: 59.99,
+    image: "fotos/lenceria-rosa-pastel.webp",
+  },
+  {
+    id: 16,
+    name: "Lenceria de Encaje Vino Tinto",
+    price: 69.99,
+    image: "fotos/lenceria-completa-vino.webp",
+  },
+  {
+    id: 17,
+    name: "Lenceria de Encaje Negra",
+    price: 69.99,
+    image: "fotos/lenceria-completa-negra.webp",
+  },
+  {
+    id: 18,
+    name: "Lenceria de Encaje Blanco con Diseño",
+    price: 69.99,
+    image: "fotos/lenceria-completa-blanco-flores.webp",
   },
 ];
 

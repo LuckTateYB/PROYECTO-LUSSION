@@ -91,11 +91,89 @@ const productData = {
     colors: ["Mint", "Rosa", "Negro"],
   },
   11: {
+    name: "Lenceria Negra",
+    price: 59.99,
+    description:
+      "Lenceria de encaje color negro, elaborado con la mejor seda del Perú con un diseño bonito.",
+    images: ["fotos/lenceria-negra.webp", "fotos/lenceria-negra.webp"],
+    sizes: ["XS", "S", "M", "L", "XL"],
+    colors: ["Mint", "Rosa", "Negro"],
+  },
+  12: {
     name: "Lenceria Negro Texturizado",
     price: 59.99,
     description:
       "Lenceria de encaje color negro, elaborado con la mejor seda del Perú con un diseño bonito.",
     images: ["fotos/lence_text_negro2.jpg", "fotos/lence_text_negro3.jpg"],
+    sizes: ["XS", "S", "M", "L", "XL"],
+    colors: ["Mint", "Rosa", "Negro"],
+  },
+  13: {
+    name: "Lenceria Negra Lisa",
+    price: 59.99,
+    description:
+      "Lenceria de encaje color negro, elaborado con la mejor seda del Perú con un diseño bonito.",
+    images: [
+      "fotos/lenceria-lisa-negra.webp",
+      "fotos/lenceria-lisa-negra.webp",
+    ],
+    sizes: ["XS", "S", "M", "L", "XL"],
+    colors: ["Mint", "Rosa", "Negro"],
+  },
+  14: {
+    name: "Lenceria Roja Texturizada",
+    price: 59.99,
+    description:
+      "Lenceria de encaje color rojo pasión, elaborado con la mejor seda del Perú con un diseño bonito.",
+    images: ["fotos/lenceria-roja.webp", "fotos/lenceria-roja.webp"],
+    sizes: ["XS", "S", "M", "L", "XL"],
+    colors: ["Mint", "Rosa", "Negro"],
+  },
+  15: {
+    name: "Lenceria Rosa Pastel",
+    price: 59.99,
+    description:
+      "Lenceria de encaje rosa pastel, elaborado con la mejor seda del Perú con un diseño bonito.",
+    images: [
+      "fotos/lenceria-rosa-pastel.webp",
+      "fotos/lenceria-rosa-pastel.webp",
+    ],
+    sizes: ["XS", "S", "M", "L", "XL"],
+    colors: ["Mint", "Rosa", "Negro"],
+  },
+  16: {
+    name: "Lenceria de Encaje Vino Tinto",
+    price: 59.99,
+    description:
+      "Lenceria de encaje vino tinto, elaborado con la mejor seda del Perú con un diseño bonito.",
+    images: [
+      "fotos/lenceria-completa-vino.webp",
+      "fotos/lenceria-completa-vino.webp",
+    ],
+    sizes: ["XS", "S", "M", "L", "XL"],
+    colors: ["Mint", "Rosa", "Negro"],
+  },
+  17: {
+    name: "Lenceria de Enacje Negra",
+    price: 59.99,
+    description:
+      "Lenceria de encaje color negro, elaborado con la mejor seda del Perú con un diseño bonito.",
+    images: [
+      "fotos/lenceria-completa-negra.webp",
+      "fotos/lenceria-completa-negra.webp",
+    ],
+    sizes: ["XS", "S", "M", "L", "XL"],
+    colors: ["Mint", "Rosa", "Negro"],
+  },
+  18: {
+    name: "Lenceria de Encaje Blanco con Diseño",
+    price: 59.99,
+    description:
+      "Lenceria de encaje color negro, elaborado con la mejor seda del Perú con un diseño bonito.",
+    images: [
+      "fotos/lenceria-completa-blanco-flores.webp",
+      "fotos/lenceria-completa-blanco-flores.webp",
+    ],
     sizes: ["XS", "S", "M", "L", "XL"],
     colors: ["Mint", "Rosa", "Negro"],
   },
