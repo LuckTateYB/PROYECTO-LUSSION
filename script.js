@@ -2,32 +2,32 @@
 const products = [
   {
     id: 1,
-    name: "Conjunto Negro Mint",
-    price: 49.99,
-    image: "fotos/conjunto.jpg",
-  },
-  {
-    id: 2,
-    name: "Conjunto Negro Mate",
-    price: 54.99,
-    image: "fotos/encajable.jpg",
-  },
-  {
-    id: 3,
-    name: "Encaje Seda Natural",
-    price: 79.99,
-    image: "fotos/azulito.jpg",
-  },
-  {
-    id: 4,
     name: "Conjunto Negro Elegante",
-    price: 59.99,
+    price: 50.0,
     image: "fotos/lence katy.webp",
   },
   {
+    id: 2,
+    name: "Conjunto Negro Tiras",
+    price: 49.0,
+    image: "fotos/lenceria negro tiras.webp",
+  },
+  {
+    id: 3,
+    name: "Conjunto Azul Basico",
+    price: 55.0,
+    image: "fotos/lence azul basico.webp",
+  },
+  {
+    id: 4,
+    name: "Conjunto Rojo Tull Love",
+    price: 55.0,
+    image: "fotos/lence tull love.webp",
+  },
+  {
     id: 5,
-    name: "Conjunto Rojo Pasión",
-    price: 59.99,
+    name: "Conjunto Rojo Básico",
+    price: 45.0,
     image: "fotos/lence roja basico.webp",
   },
   {

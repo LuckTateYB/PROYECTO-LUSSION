@@ -1,44 +1,47 @@
 // Datos del producto (simulando una base de datos)
 const productData = {
   1: {
-    name: "Conjunto Negro Mint",
-    price: 49.99,
+    name: "Conjunto Negro Elegante",
+    price: 50.0,
     description:
-      "Hermoso conjunto de lencería en tono verde mint, elaborado con los mejores materiales para tu máxima comodidad.",
-    images: ["fotos/conjunto.jpg"],
+      "Hermoso conjunto de lencería en tono negro mint, elaborado con los mejores materiales para tu máxima comodidad.",
+    images: ["fotos/lence katy.webp", "fotos/lence katy.webp"],
     sizes: ["XS", "S", "M", "L", "XL"],
     colors: ["Mint", "Rosa", "Negro"],
   },
   2: {
-    name: "Conjunto Negro Mate",
-    price: 54.99,
+    name: "Conjunto Negro Tiras",
+    price: 49.0,
     description:
       "Lujoso conjunto en negro mate, elaborado con materiales de alta calidad, no se dañan al ser lavados.",
-    images: ["fotos/encajable.jpg"],
+    images: [
+      "fotos/lenceria negro tiras.webp",
+      "fotos/lenceria negro tiras.webp",
+    ],
     sizes: ["XS", "S", "M", "L", "XL"],
     colors: ["Mint", "Rosa", "Negro"],
   },
   3: {
-    name: "Encaje Seda Natural",
-    price: 79.99,
+    name: "Conjunto Azul Basico",
+    price: 55.0,
     description:
       "Encaje seda azul, elaborado con la mejor seda del Perú con un diseño bonito.",
-    images: ["fotos/azulito.jpg"],
+    images: ["fotos/lence azul basico.webp"],
     sizes: ["XS", "S", "M", "L", "XL"],
     colors: ["Mint", "Rosa", "Negro"],
   },
   4: {
-    name: "Conjunto Negro Elegante",
-    price: 59.99,
+    name: "Conjunto Rojo Tull Love",
+    price: 55.0,
     description:
       "Encaje seda azul, elaborado con la mejor seda del Perú con un diseño bonito.",
-    images: ["fotos/lence katy.webp"],
+    images: ["fotos/lence tull love.webp"],
     sizes: ["XS", "S", "M", "L", "XL"],
     colors: ["Mint", "Rosa", "Negro"],
   },
   5: {
     name: "Conjunto Rojo Pasión",
-    price: 59.99,
+    price: 69.0,
     description:
       "Encaje seda azul, elaborado con la mejor seda del Perú con un diseño bonito.",
     images: ["fotos/lenceria cherry.webp"],
@@ -47,7 +50,7 @@ const productData = {
   },
   6: {
     name: "Lencería Azul Bebé",
-    price: 69.99,
+    price: 65.0,
     description:
       "Encaje seda azul, elaborado con la mejor seda del Perú con un diseño bonito.",
     images: ["fotos/lence encaje celeste.webp"],
@@ -55,8 +58,8 @@ const productData = {
     colors: ["Mint", "Rosa", "Negro"],
   },
   7: {
-    name: "Bikini Negro Tela",
-    price: 49.99,
+    name: "Lenceria Conjunto Negro Algodón",
+    price: 49.0,
     description:
       "Encaje seda azul, elaborado con la mejor seda del Perú con un diseño bonito.",
     images: ["fotos/lence-negro-tull.webp"],
@@ -64,35 +67,35 @@ const productData = {
     colors: ["Mint", "Rosa", "Negro"],
   },
   8: {
-    name: "Bikini Azul Encajado",
-    price: 54.99,
+    name: "Bikini Azulino Encajado",
+    price: 65.0,
     description:
-      "Encaje seda azul, elaborado con la mejor seda del Perú con un diseño bonito.",
+      "Encaje seda azulino, elaborado con la mejor seda del Perú con un diseño bonito.",
     images: ["fotos/bikini azul.webp"],
     sizes: ["XS", "S", "M", "L", "XL"],
     colors: ["Mint", "Rosa", "Negro"],
   },
   9: {
-    name: "Bikini Celeste Tull",
-    price: 79.99,
+    name: "Bikini Celeste Ari",
+    price: 70.0,
     description:
-      "Encaje seda azul, elaborado con la mejor seda del Perú con un diseño bonito.",
+      "Encaje seda celeste, elaborado con la mejor seda del Perú con un diseño bonito.",
     images: ["fotos/kini celeste.jpg", "fotos/bikini celeste.webp"],
     sizes: ["XS", "S", "M", "L", "XL"],
     colors: ["Mint", "Rosa", "Negro"],
   },
   10: {
-    name: "Bikini Rojo Seda",
-    price: 59.99,
+    name: "Bikini Rojo Ari",
+    price: 70.0,
     description:
-      "Encaje seda azul, elaborado con la mejor seda del Perú con un diseño bonito.",
+      "Encaje seda rojo, elaborado con la mejor seda del Perú con un diseño bonito.",
     images: ["fotos/bikini rojo.jpg"],
     sizes: ["XS", "S", "M", "L", "XL"],
     colors: ["Mint", "Rosa", "Negro"],
   },
   11: {
-    name: "Lenceria Negra",
-    price: 59.99,
+    name: "Conjunto Brasier + Semi Hilo",
+    price: 55.0,
     description:
       "Lenceria de encaje color negro, elaborado con la mejor seda del Perú con un diseño bonito.",
     images: ["fotos/lence negra.webp", "fotos/lence negra.webp"],
@@ -100,8 +103,8 @@ const productData = {
     colors: ["Mint", "Rosa", "Negro"],
   },
   12: {
-    name: "Lenceria Negro Texturizado",
-    price: 59.99,
+    name: "Conjunto Brallet + Cachetero",
+    price: 55.0,
     description:
       "Lenceria de encaje color negro, elaborado con la mejor seda del Perú con un diseño bonito.",
     images: ["fotos/lence_text_negro2.jpg", "fotos/lence_text_negro3.jpg"],
@@ -109,8 +112,8 @@ const productData = {
     colors: ["Mint", "Rosa", "Negro"],
   },
   13: {
-    name: "Lenceria Negra Lisa",
-    price: 59.99,
+    name: "conjunto Tull Basico",
+    price: 48.0,
     description:
       "Lenceria de encaje color negro, elaborado con la mejor seda del Perú con un diseño bonito.",
     images: [
@@ -121,8 +124,8 @@ const productData = {
     colors: ["Mint", "Rosa", "Negro"],
   },
   14: {
-    name: "Lenceria Roja Texturizada",
-    price: 59.99,
+    name: "Lenceria Rojo Básico",
+    price: 45.0,
     description:
       "Lenceria de encaje color rojo pasión, elaborado con la mejor seda del Perú con un diseño bonito.",
     images: ["fotos/lence roja basico.webp", "fotos/lence roja basico.webp"],
@@ -130,8 +133,8 @@ const productData = {
     colors: ["Mint", "Rosa", "Negro"],
   },
   15: {
-    name: "Lenceria Rosa Pastel",
-    price: 59.99,
+    name: "Lenceria Rose",
+    price: 50.0,
     description:
       "Lenceria de encaje rosa pastel, elaborado con la mejor seda del Perú con un diseño bonito.",
     images: [
@@ -142,8 +145,8 @@ const productData = {
     colors: ["Mint", "Rosa", "Negro"],
   },
   16: {
-    name: "Lenceria de Encaje Vino Tinto",
-    price: 59.99,
+    name: "Lenceria de Encaje Vino",
+    price: 65.0,
     description:
       "Lenceria de encaje vino tinto, elaborado con la mejor seda del Perú con un diseño bonito.",
     images: ["fotos/lence encaje vino.webp", "fotos/lence encaje vino.webp"],
@@ -151,8 +154,8 @@ const productData = {
     colors: ["Mint", "Rosa", "Negro"],
   },
   17: {
-    name: "Lenceria de Enacje Negra",
-    price: 59.99,
+    name: "Conjunto Brasier + Cachetero",
+    price: 65.0,
     description:
       "Lenceria de encaje color negro, elaborado con la mejor seda del Perú con un diseño bonito.",
     images: [
@@ -164,7 +167,7 @@ const productData = {
   },
   18: {
     name: "Lenceria de Encaje Blanco con Diseño",
-    price: 59.99,
+    price: 65.0,
     description:
       "Lenceria de encaje color negro, elaborado con la mejor seda del Perú con un diseño bonito.",
     images: [
