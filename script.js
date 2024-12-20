@@ -22,19 +22,19 @@ const products = [
     id: 4,
     name: "Conjunto Negro Elegante",
     price: 59.99,
-    image: "fotos/lenceria katy negro.jpg",
+    image: "fotos/lence katy.webp",
   },
   {
     id: 5,
     name: "Conjunto Rojo Pasión",
     price: 59.99,
-    image: "fotos/conjunto rojo.jpg",
+    image: "fotos/lence roja basico.webp",
   },
   {
     id: 6,
     name: "Lenceria Azul Bebé",
     price: 69.99,
-    image: "fotos/conjunto celeste.jpg",
+    image: "fotos/lence encaje celeste.webp",
   },
 ];
 

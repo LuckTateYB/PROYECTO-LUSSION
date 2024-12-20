@@ -4,31 +4,31 @@ const lences = [
     id: 4,
     name: "Conjunto Negro Elegante",
     price: 59.99,
-    image: "fotos/lenceria katy negro.jpg",
+    image: "fotos/lence katy.webp",
   },
   {
     id: 5,
     name: "Conjunto Rojo Pasión",
     price: 59.99,
-    image: "fotos/conjunto rojo.jpg",
+    image: "fotos/lenceria cherry.webp",
   },
   {
     id: 6,
     name: "Lenceria Azul Bebé",
     price: 69.99,
-    image: "fotos/conjunto celeste.jpg",
+    image: "fotos/lence encaje celeste.webp",
   },
   {
     id: 11,
     name: "Lenceria Negra",
     price: 69.99,
-    image: "fotos/lenceria-negra.webp",
+    image: "fotos/lence negra.webp",
   },
   {
     id: 12,
     name: "Lenceria Negro Texturizado",
     price: 69.99,
-    image: "fotos/lence_text_negro.jpg",
+    image: "fotos/lence negro cachetero.webp",
   },
   {
     id: 13,
@@ -40,7 +40,7 @@ const lences = [
     id: 14,
     name: "Lenceria Roja Texturizada",
     price: 69.99,
-    image: "fotos/lenceria-roja.webp",
+    image: "fotos/lence roja basico.webp",
   },
   {
     id: 15,
@@ -52,7 +52,7 @@ const lences = [
     id: 16,
     name: "Lenceria de Encaje Vino Tinto",
     price: 69.99,
-    image: "fotos/lenceria-completa-vino.webp",
+    image: "fotos/lence encaje vino.webp",
   },
   {
     id: 17,
@@ -64,7 +64,7 @@ const lences = [
     id: 18,
     name: "Lenceria de Encaje Blanco con Diseño",
     price: 69.99,
-    image: "fotos/lenceria-completa-blanco-flores.webp",
+    image: "fotos/lence encaje blanco.webp",
   },
 ];
 

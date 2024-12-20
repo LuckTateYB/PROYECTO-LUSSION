@@ -4,13 +4,13 @@ const bikinis = [
     id: 7,
     name: "Bikini Negro Tela",
     price: 49.99,
-    image: "fotos/lenceria negro completo.jpg",
+    image: "fotos/lence-negro-tull.webp",
   },
   {
     id: 8,
     name: "Bikini Azul Encajado",
     price: 54.99,
-    image: "fotos/bikini azul.jpg",
+    image: "fotos/bikini azul.webp",
   },
   {
     id: 9,
